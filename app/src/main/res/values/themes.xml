@@ -1,0 +1,35 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Flash" parent="Theme.Flash.Background">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/xtc_gray</item>
+
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Theme.Flash.WhiteLight" parent="Theme.Flash.Background">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/xtc_gray</item>
+        <item name="android:windowBackground">@mipmap/whitelight</item>
+    </style>
+    <style name="Theme.Flash.Background" parent="Theme.Flash.NoActionBar">
+        <item name="android:windowBackground">@mipmap/splash</item>
+    </style>
+
+
+
+    <style name="Theme.Flash.RescueLight" parent="Theme.Flash.Background">
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/xtc_gray</item>
+        <item name="android:windowBackground">@mipmap/rescuelight</item>
+    </style>
+
+    <style name="Theme.Flash.NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+</resources>
